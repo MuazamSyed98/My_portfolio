@@ -27,9 +27,9 @@ function Projects() {
       <h1 className="text-3xl font-bold mb-4">Projects</h1>
       <p>COMING SOON. . . . . . . </p>
       <Stack spacing={2}>
-        {/* <Item href="https://github.com/your-repo/project1">Project 1</Item>
+        <Item href="https://github.com/your-repo/project1">Project 1</Item>
         <Item href="https://github.com/your-repo/project2">Project 2</Item>
-        <Item href="https://github.com/your-repo/project3">Project 3</Item> */}
+        <Item href="https://github.com/your-repo/project3">Project 3</Item>
       </Stack>
     </div>
   );
