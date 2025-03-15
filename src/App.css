@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.App-link {
+  color: #61dafb;
+}
