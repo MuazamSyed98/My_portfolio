@@ -5,14 +5,13 @@ function Contact() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-black text-gray-200 p-8">
       <h1 className="text-3xl font-bold text-red-500 mb-6">Contact Me</h1>
       <p className="mb-8 max-w-md text-center">
-        Have a question or want to connect? Fill out the form below.
+        This Page is under-development, come back later to send a message
       </p>
       
       <form
   name="contact"
   method="POST"
   data-netlify="true"
-  data-netlify-honeypot="bot-field"
   action="/success" 
   className="w-full max-w-lg bg-gray-900 p-8 rounded-lg shadow-lg space-y-6"
 >
