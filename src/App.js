@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import ThankYou from "./pages/thank-you";
+import Success from "./pages/Success";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/thank-you" element={<ThankYou />} />
+          <Route path="/Success" element={<Success />} />
         </Routes>
       </main>
 

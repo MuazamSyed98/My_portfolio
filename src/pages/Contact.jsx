@@ -12,7 +12,8 @@ function Contact() {
   name="contact"
   method="POST"
   data-netlify="true"
-  action="/"
+  data-netlify-honeypot="bot-field"
+  action="/success" 
   className="w-full max-w-lg bg-gray-900 p-8 rounded-lg shadow-lg space-y-6"
 >
   {/* Hidden input for Netlify to recognize the form */}
