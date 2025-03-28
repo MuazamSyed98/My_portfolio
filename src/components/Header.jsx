@@ -19,7 +19,7 @@ function Header() {
       </div>
 
       {/* Navigation Links */}
-      <nav className="flex flex-col sm:flex-row gap-4 md:gap-8 items-center">
+      <nav className="flex flex-row flex-wrap gap-4 md:gap-8 justify-center md:justify-start">
         {["/", "/projects", "/contact"].map((path, i) => {
           const labels = ["Home", "Projects", "Contact"];
           return (
